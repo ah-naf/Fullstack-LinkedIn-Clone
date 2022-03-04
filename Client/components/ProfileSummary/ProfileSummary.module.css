@@ -1,0 +1,23 @@
+.summary {
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.summary>h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+.summary>p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #00000099;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 0.5rem;
+}

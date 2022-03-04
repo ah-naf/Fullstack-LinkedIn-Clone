@@ -1,0 +1,35 @@
+.topbar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(245, 245, 245, 0.2);
+    /* position: sticky; */
+    /* top: 3.4rem; */
+    z-index: 5;
+    background-color: whitesmoke;
+}
+
+.topbar__link {
+    flex: 0.5;
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.topbar__link>p {
+    padding: 1.25rem 0.25rem;
+    color: #00000099;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all .3s;
+    border-bottom: 0px solid #0058a2;
+}
+
+.active__link {
+    border-bottom: 2px solid #0058a2 !important;
+    color: black !important;
+    font-weight: 600;
+}

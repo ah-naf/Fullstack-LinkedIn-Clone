@@ -1,0 +1,121 @@
+.singlePost__container {
+    padding: 1rem 1.25rem 0.75rem;
+    background-color: white;
+    border-radius: 0.25rem;
+}
+
+.singlePost__header {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem;
+}
+
+.singlePost__header>img {
+    width: 3rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.singlePost__header>div>p {
+    font-size: 0.85rem;
+    color: #00000099;
+    margin-top: 0.2rem;
+}
+
+.singlePost__header>p {
+    margin-left: auto;
+    color: #00000099;
+    font-size: 0.8rem;
+}
+
+.singlePost__body {
+    padding: 1rem 0.75rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.singlePost__body>p {
+    color: #00000099;
+    line-height: 1.5;
+}
+
+.singlePost__body>img {
+    margin-top: 1rem;
+    width: 100%;
+    max-height: 25rem;
+    object-fit: contain;
+    object-position: center;
+}
+
+.singlePost__body>div {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.like,
+.comment,
+.comment>label {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.like>p,
+.comment>label>p {
+    color: #00000099;
+    font-weight: 500;
+}
+
+.singlePost__footer {
+    padding: 1rem;
+}
+
+.commentBox {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.comment__user>h3 {
+    font-size: 0.9rem;
+}
+
+.comment__user>p {
+    color: #00000099;
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.comment__more {
+    margin-left: auto;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comment__more>p {
+    font-size: 0.75rem;
+    color: #00000099;
+}
+
+.textarea {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.textarea>textarea {
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    resize: vertical;
+}

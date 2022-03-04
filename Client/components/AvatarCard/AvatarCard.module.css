@@ -1,0 +1,35 @@
+.avatarCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.row1>div>p {
+    color: #00000099;
+}
+
+.row2>p:first-child {
+    color: #00000099;
+    font-weight: 500;
+    max-width: 12.5rem;
+    margin-bottom: 0.35rem;
+}
+
+.row2>p:last-child {
+    color: #00000099;
+    max-width: 15rem;
+}
+
+.row2>p:last-child>span {
+    color: black;
+    font-weight: 500;
+}

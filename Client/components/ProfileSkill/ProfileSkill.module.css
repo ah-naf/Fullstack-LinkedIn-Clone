@@ -1,0 +1,38 @@
+.profileSkill {
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.profileSkill>h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill>button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0.75rem;
+    cursor: unset;
+}
+
+.add {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

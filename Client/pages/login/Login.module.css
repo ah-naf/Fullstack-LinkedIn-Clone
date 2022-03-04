@@ -1,0 +1,109 @@
+.login__container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 25rem;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 2.5rem 1.5rem 1.5rem;
+    border-radius: 0.3rem;
+}
+
+.login__form>input {
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    outline: none;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.login__form>button {
+    padding: 0.5rem 0.3rem;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: #0073b1;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login__form>button:hover {
+    filter: brightness(1.2);
+}
+
+.login__container>p {
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.login__container>p>a {
+    text-decoration: underline;
+    color: #0073b1;
+    font-weight: bolder;
+}
+
+.login__form>label {
+    color: #555;
+    font-weight: bold;
+}
+
+.login__form>p {
+    font-size: 0.7rem;
+    text-align: center;
+    max-width: 95%;
+    margin: auto;
+}
+
+.login__form>p>span {
+    font-size: 0.85rem;
+    color: #0073b1;
+    font-weight: bold;
+}
+
+.login__form>p>span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.error__popup {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: white;
+    padding-right: 2rem;
+    transform: translateX(-200%);
+    transition: all .3s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.error__icon {
+    background-color: red;
+    padding: 1.25rem 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.error__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transform: translate(-25%, 25%);
+}
+
+.error__show {
+    transform: translateX(0);
+}

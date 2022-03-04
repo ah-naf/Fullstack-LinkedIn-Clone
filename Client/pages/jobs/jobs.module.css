@@ -1,0 +1,94 @@
+.job__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.job__container {
+    flex: 0.6;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.05);
+}
+
+.job__container>h1 {
+    font-size: 1.85rem;
+    margin-bottom: 0.2rem;
+}
+
+.job__container>p {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.job__container>p>span {
+    font-size: 1.15rem;
+    color: #00000099;
+    font-weight: bold;
+}
+
+.icon__container {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 1rem;
+}
+
+.icon__container>p {
+    opacity: 0.8;
+}
+
+.button__container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.postedBy {
+    margin-top: 1.5rem;
+}
+
+.postedBy>p {
+    font-size: 1.1rem;
+    color: #00000099;
+    font-weight: bold;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.user__container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.user__container>.col>h3 {
+    font-size: 1.1rem;
+}
+
+.col {
+    cursor: pointer;
+}
+
+.col:hover.col>h3 {
+    text-decoration: underline;
+}
+
+.desc {
+    font-size: 1.05rem;
+    line-height: 1.35;
+    margin-top: 1rem;
+}
+
+.image {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    object-position: center;
+}

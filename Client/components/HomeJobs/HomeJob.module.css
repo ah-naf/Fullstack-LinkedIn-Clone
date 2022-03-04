@@ -1,0 +1,53 @@
+.Homejobs__container {
+    background-color: white;
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.header>h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.header>p {
+    color: #00000099;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.job__container {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 1.5rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col_1>h3 {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.col_1>p {
+    color: #00000099;
+    margin-top: 0.25rem;
+}
+
+.col_1>span {
+    cursor: pointer;
+}
+
+.job__container:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+}
+
+.job__container>.col_1:first-child {
+    cursor: pointer;
+    flex: 0.8;
+}

@@ -1,0 +1,24 @@
+.middle__sidebar {
+    flex: 0.55;
+}
+
+.right__sidebar {
+    flex: 0.18;
+}
+
+.heading__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.heading__container>h3 {
+    font-size: 1.25rem;
+}
+
+.heading__container>p {
+    color: #0058a2;
+    font-weight: 800;
+}

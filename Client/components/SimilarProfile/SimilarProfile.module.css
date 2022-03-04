@@ -1,0 +1,17 @@
+.similarProfile {
+    background-color: white;
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    padding: 1.25rem 1rem;
+    margin-top: 1rem;
+}
+
+.similarProfile>h3 {
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    padding-top: 1rem;
+}

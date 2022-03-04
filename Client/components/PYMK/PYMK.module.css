@@ -1,0 +1,51 @@
+.pymk {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.col1>img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: flex-start;
+}
+
+.col2>p {
+    font-size: 0.8rem;
+    color: #00000099;
+}
+
+.col2>h4 {
+    font-size: 0.9rem;
+}
+
+.col2>button {
+    background-color: transparent;
+    outline: none;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 1.3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.508);
+    color: #00000099;
+    font-weight: 600;
+}
+
+.col2:hover.col2>h4 {
+    text-decoration: underline;
+}
+
+.col2 {
+    cursor: pointer;
+}

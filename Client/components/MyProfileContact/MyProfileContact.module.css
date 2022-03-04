@@ -1,0 +1,70 @@
+.myprofilecontact {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.myprofilecontact:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+.myprofilecontact>img {
+    width: 5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.detail__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail__container>div>h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.3rem;
+}
+
+.detail__container>button {
+    outline: none;
+    background-color: transparent;
+    padding: 0.7rem 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    border-radius: 3.25rem;
+    border: 2px solid #0058a2;
+    color: #0058a2;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.detail__container>button:hover {
+    background-color: #0058a2;
+    color: white;
+}
+
+.delete {
+    border: 2px solid red;
+    padding: 0.5rem;
+    border-radius: 0.65rem;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.delete:hover {
+    filter: brightness(90%);
+}
+
+.detail__container:hover.detail__container>div>h3 {
+    text-decoration: underline;
+}

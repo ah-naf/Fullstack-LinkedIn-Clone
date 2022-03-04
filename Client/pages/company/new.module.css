@@ -1,0 +1,145 @@
+.CreateCompany__container {
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.Company__detail {
+    flex: 0.5;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.05);
+}
+
+.Company__detail>h3 {
+    color: #0058a2;
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+}
+
+.Company__detail>form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+
+.Company__detail>form>label {
+    color: #00000099;
+    font-weight: 500;
+}
+
+.Company__detail>form>input,
+.Company__detail>form>select {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.2rem;
+    outline: none;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.logo__file {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    background-color: rgba(128, 128, 128, 0.15);
+    border-radius: 0.25rem;
+    border: 2px dashed rgba(128, 128, 128, 1);
+}
+
+.Company__detail>form>p {
+    color: #00000099;
+    font-weight: 500;
+}
+
+.logo__file>p:first-child {
+    font-size: 1.15rem;
+    margin-bottom: 0.25rem;
+}
+
+.logo__file>p:last-child {
+    font-size: 0.875rem;
+}
+
+.Company__detail>form>button {
+    margin-left: auto;
+    padding: 0.75rem 1.25rem;
+    margin-top: 1rem;
+    border-radius: 1.25rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 0.875rem;
+    background-color: #0058a2;
+}
+
+.Company__preview {
+    flex: 0.48;
+    background-color: rgba(128, 128, 128, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.05);
+}
+
+.Company__preview>h3 {
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-color: white;
+    padding: 1rem;
+    font-size: 1.35rem;
+    color: #0058a2;
+}
+
+.Company__preview>div {
+    padding: 1rem 1.5rem;
+}
+
+.preview {
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: 0.6rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.05);
+}
+
+.preview>img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.preview>h1 {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.preview>h3 {
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+}
+
+.preview>p {
+    color: #00000099;
+}
+
+.logo_pic {
+    max-height: 9rem;
+}
+
+.cover_pic {
+    max-height: 12.5rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}

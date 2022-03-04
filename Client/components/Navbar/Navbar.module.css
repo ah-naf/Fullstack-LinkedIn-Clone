@@ -1,0 +1,214 @@
+.navbar {
+    padding: 0.3rem 0;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 5000000;
+    background-color: white;
+}
+
+.navbar__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.logo__container>img {
+    width: 2rem;
+}
+
+.logo__container {
+    margin-right: 1rem;
+}
+
+.left__sidebar>p {
+    padding-left: 0.75rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.left__sidebar {
+    display: flex;
+    align-items: center;
+    flex: 0.2;
+}
+
+.middle__sidebar {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 0.1rem 0.8rem;
+    border-radius: 0.2rem;
+    flex: 0.5;
+}
+
+.middle__sidebar>input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0.5rem 0.7rem;
+    width: 100%;
+}
+
+.right__sidebar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    flex: 0.2;
+}
+
+.navbar__popup {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2.5rem 2rem;
+    background-color: white;
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    transition: all .3s;
+    pointer-events: none;
+    z-index: 5;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.show {
+    -webkit-clip-path: polygon(0 100%, 0 1%, 100% 0, 100% 100%) !important;
+    clip-path: polygon(0 100%, 0 1%, 100% 0, 100% 100%) !important;
+    pointer-events: unset !important;
+}
+
+.col__items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.col__items>a {
+    color: #00000099;
+    transition: all .3s;
+}
+
+.line {
+    width: 2px;
+    height: 8rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.col__items>a:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.avatarOption__container {
+    min-width: 15rem;
+    padding: 0.5rem;
+}
+
+.avatarOption {
+    padding: 0.4rem 0.2rem 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.avatarOption>div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.avatarOption>div>img {
+    width: 3.5rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.avatarOption>div>div>h3 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.avatarOption>div>div>p {
+    font-size: 0.8rem;
+    color: #00000099;
+    font-weight: 500;
+}
+
+.account {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.account>h3 {
+    font-size: 1.15rem;
+    margin-bottom: 0.35rem;
+}
+
+.account>p {
+    color: #00000099;
+    cursor: pointer;
+}
+
+.account>p:hover {
+    text-decoration: underline;
+}
+
+.notificationPopup__container {
+    min-width: 18rem;
+    border-radius: 0.85rem;
+}
+
+.notificationPopup__container>h3 {
+    text-align: center;
+    background-color: #0058a2;
+    color: white;
+    padding: 1rem 0;
+    font-size: 1.25rem;
+    border-top-left-radius: 0.85rem;
+    border-top-right-radius: 0.85rem;
+}
+
+.row1,
+.row2 {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.row2 {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.row2:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.227);
+}
+
+.row2>img {
+    width: 3rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.row2>div>h3 {
+    font-size: 1.1rem;
+}
+
+.row2>div>p {
+    color: #00000099;
+    font-weight: 500;
+}

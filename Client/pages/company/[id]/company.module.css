@@ -1,0 +1,175 @@
+.company__container {
+    flex: 1;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.company__header {
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.company__pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background: url('/no-user.jpg'); */
+    /* background-color: aqua; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 500px;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.image {
+    width: 5rem;
+    object-fit: contain;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.company__pic>div {
+    background-color: rgba(0, 0, 0, 0.3);
+    min-width: 20rem;
+}
+
+.company__pic>div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    gap: 1rem;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.company__pic>div:last-child>p:first-child {
+    border-right: 1px solid white;
+    padding-right: 1rem;
+}
+
+.company__pic>div>p>span {
+    color: white;
+    font-weight: 500;
+}
+
+.company__pic>div:first-child {
+    border-radius: 0.25rem 0.25rem 0 0;
+    padding-top: 1rem;
+}
+
+.company__pic>div:first-child>h3 {
+    color: white;
+    font-size: 1.25rem;
+    margin: 0.5rem 0 0.25rem;
+}
+
+.company__pic>div:first-child>hr {
+    width: 40%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.company__header>div:last-child {
+    padding: 0.5rem 1.5rem;
+    margin-left: auto;
+}
+
+.company__body {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left {
+    flex: 0.2;
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.05);
+}
+
+.left>h2 {
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.left>p {
+    color: #00000099;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
+.left>h3 {
+    margin-bottom: 1rem;
+}
+
+.middle {
+    flex: 0.5;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.05);
+}
+
+.middle>h2 {
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.middle>p {
+    color: #00000099;
+    line-height: 1.65;
+    padding-bottom: 1rem;
+}
+
+.right {
+    flex: 0.22;
+}
+
+.connected,
+.viewed {
+    padding: 1rem 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.05);
+}
+
+.connected>h3 {
+    font-size: 1.15rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem;
+}
+
+.viewed {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.viewed>h3 {
+    font-size: 1.15rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.viewed>div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
